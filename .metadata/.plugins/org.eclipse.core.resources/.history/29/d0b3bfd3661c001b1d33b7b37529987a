@@ -1,0 +1,28 @@
+#H2 db
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.driverClassName=org.h2.Driver
+#spring.datasource.username=sa
+#spring.datasource.password=password
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+# Enabling H2 Console
+#spring.h2.console.enabled=true
+#spring.h2.console.path=/h2-console
+ 
+server.servlet.context-path=/studentmgmt
+
+#spring security
+spring.security.user.name=admin
+spring.security.user.password=pass
+security.user.role=USER,ADMIN
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/stdmgmtdb
+spring.datasource.username=postgres
+spring.datasource.password=root
+spring.jpa.show-sql=true
+
+## Hibernate Properties
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto = update

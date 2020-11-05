@@ -1,0 +1,1 @@
+INSERT INTO STUDENTS VALUES (1,'Athira', '80', '81', '82', '83', '84', '1', true);  

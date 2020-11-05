@@ -1,0 +1,6 @@
+package com.example.studentmanagementsystem;
+
+@Component
+public class CustomAuthenticationProvider {
+
+}
